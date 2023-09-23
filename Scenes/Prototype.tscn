@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://vdp6il38n2x3"]
+
+[ext_resource type="Texture2D" uid="uid://bqswdyb2yovwj" path="res://Sprites/Player/player-walk-000.png" id="1_7cyia"]
+
+[node name="Root" type="Node"]
+
+[node name="Camera" type="Camera2D" parent="."]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="Player"]
+texture = ExtResource("1_7cyia")
+
+[node name="Map" type="TileMap" parent="."]
+format = 2
